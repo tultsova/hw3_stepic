@@ -2,11 +2,16 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: 'Arial', serif;
     font-weight: 500;
 }
+A:link, A:visited, A:active, A:hover {
+    color: white;
+    text-decoration: none;
+}
 body {
     margin: 0 auto;
+    background-color: #EEEEEE;
 }
 
-div {
+div.sh { /*верхний блок*/
     background-color: #007765;
     background-size: cover;
     font-size: 24px;
@@ -15,10 +20,10 @@ div {
     padding: 3px 3px;
 }
 
-.sh p {
+.sh p { /*ссылки*/
     margin-left: 60%;
 }
-div img {
+div img { /*логотип*/
     position: absolute;
     right: 76%;
     left: 10%;
@@ -32,10 +37,26 @@ div img {
 
 .hp {
     position: absolute;
-    top: 20%;
-    left: 30%;
+    top:20%;
+    left:30%;
     font-size: 72px;
     color:#FFFFFF;
+}
 
+.prob {
+    background-color: #EEEEEE;
+}
+
+div.prob h1 {
+    padding-left: 35%;
+    color: #007765;
+    font-size: 64px;
+}
+
+div.prob p{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 32px;
+    color: black;
 }
 
