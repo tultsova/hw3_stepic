@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6, p {
+h1, h3, p {
     font-family: 'Arial', serif;
     font-weight: 500;
 }
@@ -31,7 +31,7 @@ div img { /*логотип*/
     bottom:19px;
 }
 
-.im {
+.im { /*фоновые картинки*/
     width: 100%;
 }
 
@@ -90,3 +90,42 @@ h1.b2 {
      padding-right: 20px;
      float: left;
  }
+
+ div.b3 table {
+     padding-left: 23%;
+     padding-right: 23%;
+     padding-bottom: 3%;
+ }
+
+div.b3 h1  {
+    margin-left: 42%;
+    color: #007765;
+    font-size: 64px;
+}
+
+div.b3 img {
+    position: static;
+    width: 168px;
+    height: 168px;
+}
+
+div.b3 h3 {
+    text-align: center;
+    color: #007765;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+div.b3 p{
+    font-size: 18px;
+    margin-top: -20px;
+    text-align: center;
+}
+div.b4 {
+    background-color: #333333;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    padding: 1% 20%;
+}
+
